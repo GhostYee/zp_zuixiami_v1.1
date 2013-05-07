@@ -167,7 +167,7 @@ class PublicAction extends Action {
 			$_SESSION['lastLoginTime'] = $authInfo['last_login_time'];
 			$_SESSION['login_count'] = $authInfo['login_count'];
 			$_SESSION['login_account'] = $authInfo['account'];
-			if ($authInfo['account'] == 'wewe' || $authInfo['account'] == 'travis') {
+			if ($authInfo['account'] == 'zuixiami') {
 				$_SESSION[C('ADMIN_AUTH_KEY')] = true;
 			}
 			//保存登录信息
